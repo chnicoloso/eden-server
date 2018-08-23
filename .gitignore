@@ -1,0 +1,5 @@
+# data to be fetched once deployed.
+*.csv
+
+# pycache
+*.pyc
