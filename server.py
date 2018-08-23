@@ -35,6 +35,7 @@ def _initialize():
     actual = pd.read_csv('./actual_production.csv')
     predicted = pd.read_csv('./predicted_production.csv')
 
+    print('data ready') # :/
     return
 
 @app.hook('after_request')
